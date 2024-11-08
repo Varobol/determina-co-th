@@ -55,7 +55,7 @@ function onSubmit() {
 
 <template>
   <UFooter>
-    <template #top>
+    <!-- <template #top>
       <UFooterColumns :links="links">
         <template #right>
           <form @submit.prevent="onSubmit">
@@ -81,22 +81,21 @@ function onSubmit() {
                     :loading="loading"
                   />
                 </template>
-              </UInput>
-            </UFormGroup>
-          </form>
-        </template>
-      </UFooterColumns>
-    </template>
+</UInput>
+</UFormGroup>
+</form>
+</template>
+</UFooterColumns>
+</template> -->
 
     <template #left>
       <p class="text-gray-500 dark:text-gray-400 text-sm">
         Copyright © {{ new Date().getFullYear() }}. All rights reserved.
       </p>
     </template>
-
+    <!-- 
     <template #right>
       <UColorModeButton size="sm" />
-
       <UButton
         to="https://github.com/nuxt-ui-pro/landing"
         target="_blank"
@@ -105,6 +104,6 @@ function onSubmit() {
         color="gray"
         variant="ghost"
       />
-    </template>
+    </template> -->
   </UFooter>
 </template>
