@@ -2,9 +2,7 @@
   <div>
     <UPage>
       <UPageBody :ui="{ wrapper: 'mt-0 pb-0' }">
-        <ULandingSection :ui="{
-          container: 'w-full lg:h-[400px]',
-        }"
+        <ULandingSection :ui="{ container: 'w-full lg:h-[400px]' }"
           class="bg-repeat-round  bg-[url('https://failfast.blob.core.windows.net/upload/webdetermina/DeterminawebBG.png')]"
           title="Determina">
           <template #headline>
@@ -15,9 +13,8 @@
 
         <ULandingSection title="Financial technology service provider"
           class="  bg-[url('https://failfast.blob.core.windows.net/upload/webdetermina/Worldbg.png')]">
-          <UPageGrid :ui="{
-            wrapper: 'grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-2 gap-8'
-          }" id="home" class="scroll-mt-[calc(var(--header-height)+140px+128px+96px)]">
+          <UPageGrid :ui="{ wrapper: 'grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-2 gap-8' }" id="home"
+            class="scroll-mt-[calc(var(--header-height)+140px+128px+96px)]">
             <ULandingCard v-for="(item, index) in itemFeature" :key="index" v-bind="item" target="_blank" />
           </UPageGrid>
         </ULandingSection>
