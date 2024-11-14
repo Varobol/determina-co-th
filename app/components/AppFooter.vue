@@ -54,7 +54,7 @@ function onSubmit() {
 </script>
 
 <template>
-  <UFooter>
+   <UFooter>
     <template #top>
       <UFooterColumns :links="links">
         <template #right>
