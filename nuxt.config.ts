@@ -9,12 +9,6 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/ui'
   ],
-  colorMode: {
-    preference: 'light'
-  },
-  colorMode: {
-    preference: 'light'
-  },
   routeRules: {
     // Temporary workaround for prerender regression. see https://github.com/nuxt/nuxt/issues/27490
     '/': { prerender: true }
