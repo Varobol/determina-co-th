@@ -1,10 +1,9 @@
-![nuxt-ui-landing-social-card](https://github.com/nuxt-ui-pro/landing/assets/739984/d0919c96-e5f2-47e9-b460-44f87341218d)
-
-# Nuxt UI Pro - Landing template
+# Determina Co., Ltd - Landing template
 
 This starter lets you get started with [Nuxt UI Pro](https://ui.nuxt.com/pro) quickly.
 
 [![Nuxt UI Pro](https://img.shields.io/badge/Made%20with-Nuxt%20UI%20Pro-00DC82?logo=nuxt.js&labelColor=020420)](https://ui.nuxt.com/pro)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/61347bc5-b747-43e6-ad8a-354078427ca0/deploy-status)](https://app.netlify.com/sites/determina-co-th/deploys)
 
 - [Live demo](https://landing-template.nuxt.dev/)
 - [Play on Stackblitz](https://stackblitz.com/github/nuxt-ui-pro/landing)
