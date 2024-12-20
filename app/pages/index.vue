@@ -45,7 +45,7 @@ const itemFeature = ref([
     title: "License",
     description: "Financial license",
     icon: "i-material-symbols-light-currency-exchange",
-    to: "https://google.com"
+    to: "certificate"
   }
 ]);
 </script>
