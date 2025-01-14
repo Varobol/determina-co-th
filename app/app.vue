@@ -12,8 +12,8 @@ useHead({
 })
 
 useSeoMeta({
-  ogImage: 'https://landing-template.nuxt.dev/social-card.png',
-  twitterImage: 'https://landing-template.nuxt.dev/social-card.png',
+  ogImage: 'https://failfast.blob.core.windows.net/upload/webdetermina/DeterminaLogo.png',
+  twitterImage: 'https://failfast.blob.core.windows.net/upload/webdetermina/DeterminaLogo.png',
   twitterCard: 'summary_large_image'
 })
 </script>
